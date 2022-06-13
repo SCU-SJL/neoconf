@@ -25,6 +25,8 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'cormacrelf/vim-colors-github'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'akinsho/toggleterm.nvim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 " basic setting
