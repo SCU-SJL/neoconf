@@ -24,7 +24,8 @@ Plug 'buoto/gotests-vim'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'cormacrelf/vim-colors-github'
 Plug 'projekt0n/github-nvim-theme'
-Plug 'akinsho/toggleterm.nvim'
+Plug 'voldikss/vim-floaterm'
+Plug 'joshdick/onedark.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'easymotion/vim-easymotion'
 call plug#end()
@@ -88,7 +89,7 @@ nnoremap <F5> :Windows<CR>
 nnoremap <C-f> :BLines<CR>
 
 " toggleterm
-nnoremap <leader>tt :ToggleTerm direction=float<CR>
+nnoremap <leader>tt :FloatermNew<CR>
 
 " ack
 "cnoreabbrev Ack Ack!
