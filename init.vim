@@ -115,31 +115,19 @@ let g:ackhighlight = 1
 "let g:material_terminal_italics = 1
 "let g:airline_theme = 'ayu_light'
 
-set background=light
-set termguicolors
-let g:one_allow_italics=1
-colorscheme one
-let g:airline_theme='one'
-
-"let g:github_colors_soft = 1
 "set background=light
-"let g:github_colors_block_diffmark = 0
-"colorscheme github
-"let g:airline_theme = 'github'
+"set termguicolors
+"let g:one_allow_italics=1
+"colorscheme one
+"let g:airline_theme='one'
 
-" another github theme
-"let g:github_function_style = "italic"
-"let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
-
-" Change the "hint" color to the "orange" color, and make the "error" color bright red
-"let g:github_colors = {
-  "\ 'hint': 'orange',
-  "\ 'error': '#ff0000'
-"\ }
-
-" Load the colorscheme
-"colorscheme github_light_default
-"let g:airline_theme = 'github'
+let g:github_function_style = "italic"
+let g:github_colors = {
+  \ 'hint': 'orange',
+  \ 'error': '#ff0000'
+\ }
+colorscheme github_light_default
+let g:airline_theme = 'github'
 
 " NERDTree
 nnoremap <F3> :NERDTreeToggle<CR>
